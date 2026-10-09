@@ -3,15 +3,19 @@ import Reveal from './Reveal'
 const GROUPS = [
   {
     title: 'Langages',
-    items: ['Python', 'C', 'Java', 'JavaScript', 'HTML', 'CSS'],
+    items: ['Python', 'Java', 'C++', 'C', 'JavaScript', 'HTML', 'CSS'],
   },
   {
-    title: 'Bibliothèques & outils',
-    items: ['React', 'Vite', 'pandas', 'PyTorch', 'Git', 'Linux'],
+    title: 'Web & bases de données',
+    items: ['React', 'PHP', 'Django', 'PostgreSQL', 'MySQL', 'Oracle'],
   },
   {
-    title: 'En cours d’apprentissage',
-    items: ['DQN / RL', 'Smart Money Concepts', 'Développement web'],
+    title: 'IA & machine learning',
+    items: ['scikit-learn', 'PyTorch', 'pandas', 'DQN / RL'],
+  },
+  {
+    title: 'Outils',
+    items: ['Git', 'bash', 'Linux', 'VSCode', 'Vite'],
   },
 ]
 
