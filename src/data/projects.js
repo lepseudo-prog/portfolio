@@ -20,6 +20,8 @@ import tradingShot from '../assets/projects/trading-bot.webp'
 import tradingVideo from '../assets/projects/trading-bot.mp4'
 import stickmanShot from '../assets/projects/stickman-fight.webp'
 import stickmanVideo from '../assets/projects/stickman-fight.mp4'
+import portfolioShot from '../assets/projects/portfolio.webp'
+import portfolioVideo from '../assets/projects/portfolio.mp4'
 
 export const STATUS_LABELS = {
   termine: "Terminé",
@@ -241,5 +243,24 @@ export const PERSO_PROJECTS = [
       '2 plateformes réelles testées : Bybit puis Hyperliquid',
     ],
     link: 'https://github.com/lepseudo-prog/trading_bot_1.0',
+  },
+  {
+    id: 'portfolio',
+    title: 'Ce portfolio',
+    image: portfolioShot,
+    video: portfolioVideo,
+    tech: ['React', 'Vite', 'CSS natif'],
+    status: 'en-cours',
+    made: 'vibecode',
+    summary: "Le site que vous parcourez : construit avec l'IA, screenshoté pour se voir de l'extérieur.",
+    description:
+      "Ce portfolio lui-même est un projet vibecodé : direction artistique inspirée du « taste-skill », composants React écrits avec l'IA, et surtout une idée que j'aime bien : chaque projet y est filmé en action (vraies applis exécutées dans un serveur X virtuel, sessions terminal enregistrées) et la vidéo se lance au survol de la carte. Rien n'est statique, tout est capturé depuis de vraies exécutions. Le site s'améliore au fil des projets, d'où son statut.",
+    features: [
+      'Vidéos au hover : vraies démos, zéro mockup',
+      'Captures réalisées en Xvfb + ffmpeg + tmux',
+      "Direction artistique « taste-skill », un seul accent",
+      'Lui-même screenshoté pour apparaître dans sa propre liste',
+    ],
+    link: 'https://github.com/lepseudo-prog/portfolio',
   },
 ]
